@@ -85,6 +85,7 @@ main section p {
 .picture {
     width: 100%;
     margin-top: 100px;
+
 }
 
 
@@ -132,7 +133,7 @@ main section:last-child h3 {
 * footer
 */
 footer {
-    background-color: var(--green-dark);
+    background-color: var(--green-light);
     padding: 20px 0;
 }
  

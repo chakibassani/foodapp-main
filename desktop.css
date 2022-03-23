@@ -1,0 +1,94 @@
+@media screen and (min-width:1200px) {
+
+   .container {
+          width: 60%;
+    }
+
+    /**
+    * alert
+    */
+    .alert {
+        display: block;
+        color: var(--white);
+        text-align: center;
+        background: var(--green) url('../images/banner_wave.svg') no-repeat;
+        padding: 15px 0;
+    }
+
+    /**
+    * navigation
+    */
+    nav .menu-burger {
+        display: none;
+    }
+
+    nav .menu-desktop {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        list-style: none;
+    }
+
+
+    nav .menu-desktop a {
+        text-decoration: none;
+        color: var(--gray-dark);
+    }
+
+    /* logo */
+    nav img {
+        width: 10%;
+    }
+    /**
+    * header
+    * le selecteur avancé ">" permet de dire :
+    * "prends le premier elément juste en dessous du parent"
+    */
+    
+    header,
+    main section:first-child > div,
+    main section:last-child section {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        text-align: left;
+        padding: 100px 0;
+    }
+
+    header h1 {
+        font-size: 4rem;
+    }
+    /**
+    * "!important" permet de specifier que la propriéte
+    * est la plus importante dans votre feuille css
+    */
+
+    header img {
+        margin: 0 !important;
+    }
+    main section h2 {
+        font-size: 3.2rem;
+    }
+
+    main section:last-child section {
+        text-align: center;
+    }
+
+    .picture {
+        margin: 0;
+    }
+    /**
+    * footer
+    */
+    footer div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    footer div ul {
+        margin: 0;
+    }
+    
+}
+
